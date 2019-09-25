@@ -1,0 +1,17 @@
+[
+    {
+      nyhedid: 1,
+      overskrift: 'Tager kampen op mod efterårets blade',
+      nyhedtxt: 'Sidste år blev flere letbaneafgange aflyst, fordi togene ikke kunne klare de stejle strækninger.'
+    },
+    {
+      nyhedid: 4,
+      overskrift: 'Dyrepasser genser for første gang næsehornet Mandela i Afrika',
+      nyhedtxt: 'Det sorte næsehorn fra Ree Park skal være med til at sikre bestandens overlevelse i Rwanda.'
+    },
+    {
+      nyhedid: 9,
+      overskrift: 'VR-briller har fået Casper ud ad døren trods angst',
+      nyhedtxt: 'Virtual reality giver folk med social angst mulighed for at træne angstprovokerende hverdagssituationer.'
+    }
+  ]
