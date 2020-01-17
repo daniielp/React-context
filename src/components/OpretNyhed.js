@@ -1,25 +1,13 @@
-import React, { useContext, useState } from 'react';
+import React from 'react';
 
 const OpretNyhed = () => {
 
 
-    // State til indholdet i en nyhed
-    const [overskrift, setOverskrift] = useState('');
-    const [nyhedstxt, setNyhedstxt] = useState('');
-
 
     return (
-        <form>
 
-            <input type="text" placeholder="Nyhedens overskrift" value={""}
-                onChange={""} />
+        <h1>Opret nyhed</h1>
 
-            <input type="text" placeholder="Nyhedens tekst" value={""}
-                onChange={""} />
-
-            <input type="submit" value="GEM nyheden - inden det er for sent" />
-
-        </form>
     );
 }
 
