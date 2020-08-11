@@ -23,11 +23,11 @@ const Nyheder = () => {
         <div className="Nyheder">
 
             <h2>Nyheder</h2>
+            {nyhedsliste}
 
             {nyhedsliste}
 
         </div>
     );
 }
-
 export default Nyheder;

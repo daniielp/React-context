@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { NyhedContext } from '../contexts/NyhedContext';
 
 
-
 const Nyhed = (props) => {
 
     let nyhedID = +props.match.params.nyhedid;

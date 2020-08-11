@@ -27,7 +27,6 @@ const NyhedContextProvider = (props) => {
         }
     ]);
 
-    // Slet nyhed
     const delNyhed = (id) => {
         setNyheder(nyheder.filter(nyhed => nyhed.nyhedid !== id));  //Hvis id matcher nyhedid, fjern den fra listen
     }
@@ -51,4 +50,4 @@ const NyhedContextProvider = (props) => {
     );
 }
 
-export default NyhedContextProvider;
+    export default NyhedContextProvider;

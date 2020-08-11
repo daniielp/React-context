@@ -20,13 +20,12 @@ const OpretNyhed = () => {
         <form onSubmit={handleSubmit}>
 
             <input type="text" placeholder="Nyhedens overskrift" value={overskrift}
-                onChange={(e) =>  setOverskrift(e.target.value)} />
+                onChange={(e) => setOverskrift(e.target.value)} />
 
             <input type="text" placeholder="Nyhedens tekst" value={nyhedstxt}
                 onChange={(e) => setNyhedstxt(e.target.value)} />
 
-            <input type="submit" value="GEM nyheden - inden det er for sent" />
-
+            <h1>Opret nyhed</h1>
         </form>
     );
 }
